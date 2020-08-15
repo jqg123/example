@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+// etc
+img{
+  width:100%;
+}
+
+.pic{
+  height:250px;
+  width:250px;
+
+margin: 0px auto 0px auto;
+}
+
+.visual {
+  height: 100px;
+  width: 100%;
+  background: wheat;
+  margin: 0.5rem 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #90ee90;
+  padding: 1rem;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: .5rem auto .5rem auto;
+  margin-bottom: 25px
+}
+nav ul li {
+                display: inline;
+
+            }
