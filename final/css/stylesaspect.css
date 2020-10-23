@@ -1,0 +1,38 @@
+
+body {
+  display: grid;
+  /*place-items: center;*/
+  height: 100vh;
+
+font-family: system-ui, sans-serif;
+  background-color: #add8e6;}
+
+li {
+              justify-content: left;
+                display: inline;
+
+            }
+
+    
+.visual {
+  aspect-ratio: 16/9;
+  background: wheat;
+  margin: 0.5rem 0;
+  place-items: center;
+}
+
+.card {
+   grid-column:1/2;
+  place-items: center;
+  width: 80%;
+  display: center;
+  flex-direction: column;
+  background: #90ee90;
+  padding: 1rem;
+}
+
+
+
+h1 {
+  font-size: 1.5rem;
+}
